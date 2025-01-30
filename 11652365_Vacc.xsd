@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Root Element: States -->
+  <xs:element name="states">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="state" maxOccurs="unbounded" minOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:string"/>
+              <xs:element name="capital" type="xs:string"/>
+              <xs:element name="county" maxOccurs="unbounded" minOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="name" type="xs:string"/>
+                    <xs:element name="clinic" maxOccurs="unbounded" minOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="clinic_name" type="xs:string"/>
+                          <xs:element name="population_served" type="xs:int"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+          <!-- Constraints for unique names -->
+          <xs:key name="uniqueStateName">
+            <xs:selector xpath="."/>
+            <xs:field xpath="name"/>
+          </xs:key>
+          <xs:key name="uniqueCountyName">
+            <xs:selector xpath="county"/>
+            <xs:field xpath="name"/>
+          </xs:key>
+          <xs:key name="uniqueClinicName">
+            <xs:selector xpath="county/clinic"/>
+            <xs:field xpath="clinic_name"/>
+          </xs:key>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Population Constraint -->
+  <xs:simpleType name="PopulationType">
+    <xs:restriction base="xs:int">
+      <xs:minInclusive value="100"/>
+      <xs:maxInclusive value="50000"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

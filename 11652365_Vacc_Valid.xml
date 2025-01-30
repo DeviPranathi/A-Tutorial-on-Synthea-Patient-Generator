@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<states>
+  <state>
+    <name>California</name>
+    <capital>Sacramento</capital>
+    <county>
+      <name>Los Angeles</name>
+      <clinic>
+        <clinic_name>LA Clinic 1</clinic_name>
+        <population_served>1500</population_served>
+      </clinic>
+      <clinic>
+        <clinic_name>LA Clinic 2</clinic_name>
+        <population_served>3200</population_served>
+      </clinic>
+      <clinic>
+        <clinic_name>LA Clinic 3</clinic_name>
+        <population_served>800</population_served>
+      </clinic>
+    </county>
+    <county>
+      <name>San Diego</name>
+      <clinic>
+        <clinic_name>SD Clinic 1</clinic_name>
+        <population_served>1200</population_served>
+      </clinic>
+      <clinic>
+        <clinic_name>SD Clinic 2</clinic_name>
+        <population_served>4200</population_served>
+      </clinic>
+      <clinic>
+        <clinic_name>SD Clinic 3</clinic_name>
+        <population_served>2300</population_served>
+      </clinic>
+    </county>
+    <county>
+      <name>San Francisco</name>
+      <clinic>
+        <clinic_name>SF Clinic 1</clinic_name>
+        <population_served>3000</population_served>
+      </clinic>
+      <clinic>
+        <clinic_name>SF Clinic 2</clinic_name>
+        <population_served>3400</population_served>
+      </clinic>
+      <clinic>
+        <clinic_name>SF Clinic 3</clinic_name>
+        <population_served>2600</population_served>
+      </clinic>
+    </county>
+  </state>
+
+  <state>
+    <name>Texas</name>
+    <capital>Austin</capital>
+    <county>
+      <name>Houston</name>
+      <clinic>
+        <clinic_name>Houston Clinic 1</clinic_name>
+        <population_served>1400</population_served>
+      </clinic>
+      <clinic>
+        <clinic_name>Houston Clinic 2</clinic_name>
+        <population_served>2300</population_served>
+      </clinic>
+      <clinic>
+        <clinic_name>Houston Clinic 3</clinic_name>
+        <population_served>3100</population_served>
+      </clinic>
+    </county>
+    <county>
+      <name>Dallas</name>
+      <clinic>
+        <clinic_name>Dallas Clinic 1</clinic_name>
+        <population_served>4100</population_served>
+      </clinic>
+      <clinic>
+        <clinic_name>Dallas Clinic 2</clinic_name>
+        <population_served>5200</population_served>
+      </clinic>
+      <clinic>
+        <clinic_name>Dallas Clinic 3</clinic_name>
+        <population_served>3700</population_served>
+      </clinic>
+    </county>
+    <county>
+      <name>Austin</name>
+      <clinic>
+        <clinic_name>Austin Clinic 1</clinic_name>
+        <population_served>4600</population_served>
+      </clinic>
+      <clinic>
+        <clinic_name>Austin Clinic 2</clinic_name>
+        <population_served>5400</population_served>
+      </clinic>
+      <clinic>
+        <clinic_name>Austin Clinic 3</clinic_name>
+        <population_served>6100</population_served>
+      </clinic>
+    </county>
+  </state>
+
+  <state>
+    <name>New York</name>
+    <capital>Albany</capital>
+    <county>
+      <name>Manhattan</name>
+      <clinic>
+        <clinic_name>Manhattan Clinic 1</clinic_name>
+        <population_served>2100</population_served>
+      </clinic>
+      <clinic>
+        <clinic_name>Manhattan Clinic 2</clinic_name>
+        <population_served>3900</population_served>
+      </clinic>
+      <clinic>
+        <clinic_name>Manhattan Clinic 3</clinic_name>
+        <population_served>1800</population_served>
+      </clinic>
+    </county>
+    <county>
+      <name>Brooklyn</name>
+      <clinic>
+        <clinic_name>Brooklyn Clinic 1</clinic_name>
+        <population_served>2500</population_served>
+      </clinic>
+      <clinic>
+        <clinic_name>Brooklyn Clinic 2</clinic_name>
+        <population_served>4900</population_served>
+      </clinic>
+      <clinic>
+        <clinic_name>Brooklyn Clinic 3</clinic_name>
+        <population_served>1500</population_served>
+      </clinic>
+    </county>
+    <county>
+      <name>Queens</name>
+      <clinic>
+        <clinic_name>Queens Clinic 1</clinic_name>
+        <population_served>3700</population_served>
+      </clinic>
+      <clinic>
+        <clinic_name>Queens Clinic 2</clinic_name>
+        <population_served>4500</population_served>
+      </clinic>
+      <clinic>
+        <clinic_name>Queens Clinic 3</clinic_name>
+        <population_served>3800</population_served>
+      </clinic>
+    </county>
+  </state>
+</states>
